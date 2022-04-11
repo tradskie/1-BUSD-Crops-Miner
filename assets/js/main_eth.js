@@ -23,7 +23,7 @@ var withdrawCooldown=0;
 
 var contract;
 
-const minerAddress = '0x0604af2d16f0f31aF2D9773DE53862ce12E81C18'; //testnet contract
+const minerAddress = '0x5466b538cbD867071CC7763D5F1bDd6f9912a670'; //testnet contract
 const tokenAddress = '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7'; //testnet BUSD
 //const minerAddress = ''; //mainnet contract   
 //const tokenAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'; //mainnet BUSD
