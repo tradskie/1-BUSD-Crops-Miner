@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(33, 36, 41) !important;
   background: var(--radial-gradient);
   color: #fff;
@@ -1022,7 +1022,7 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #aaaaaa;
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .section-title h2::after {
     content: "";
@@ -1038,7 +1038,7 @@ body {
     font-size: 26px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:  rgba(255,255,255,0.8);
   }
 
@@ -1549,7 +1549,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
     display: block;
     position: relative;
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
