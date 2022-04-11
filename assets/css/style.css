@@ -567,7 +567,7 @@ body {
     width: 200%;
     transform: rotate(-45deg);
     overflow: hidden;
-    background: linear-gradient(to right, #624a09 20%, #000000 40%, #a48626 50%, #ECD08C 55%, #ba9a37 70%, #624a09 100%)
+    background: linear-gradient(to right, #624a09 20%, #000000 40%, #a48626 50%, #ECD08C 55%, #ba9a37 70%, #624a09 100%);
     background-size: 200% auto;
     animation: shine 3s linear infinite;
   }
