@@ -523,7 +523,7 @@ body {
   #hero .container {
     background: #00000036;
     height: 613px;
-    width: 735px;
+ /*   width: 735px; */
     position: absolute;
     bottom: 3px;
     left: 0px;
@@ -845,7 +845,7 @@ body {
     }
 
     #hero .container {
-      padding-top: 180px;
+      padding-top: 0px;
     }
     #hero h1 {
       font-size: 28px;
