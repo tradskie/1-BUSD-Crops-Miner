@@ -270,7 +270,7 @@ body {
 
 .navbar .bnb-miner {
     /* width: auto; */
-    background-color: var(--token);
+    background-color: #e7d74b;
     border-radius: 6px;
     padding: 10px;
     font-weight: bold;
@@ -283,7 +283,7 @@ body {
 
   #navbar .bnb-miner:hover {
     color: #fff;
-    background-color: #855953;
+    background-color: #f0e68f;
   }
 
   .other-miner {
