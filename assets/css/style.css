@@ -269,8 +269,8 @@ body {
   }
 
 .navbar .bnb-miner {
-    /* width: auto; */
-    background-color: #9d9015;
+    width: auto; 
+    background-color: #877b12;
     border-radius: 6px;
     padding: 10px;
     font-weight: bold;
