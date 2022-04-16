@@ -546,7 +546,7 @@ function setCooldownTimer(cooldown) {
 
 var startTimeInterval;
 function setStartTimer() {
-    var endDate = new Date('December 15, 2021 7:00 EST').getTime();
+    var endDate = new Date('April 18, 2022 9:00 EST').getTime();
 
     clearInterval(startTimeInterval)
     startTimeInterval = setInterval(function() {
