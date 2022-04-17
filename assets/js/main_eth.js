@@ -306,7 +306,6 @@ function refreshData() {
         var withdrawCount = user._withdrawCount;
         var lastWithdrawTime = user._lastWithdrawTime;
 
-        console.log('withdraw count = ' + withdrawCount)
         console.log('last withdraw time = ' + lastWithdrawTime)
 
         var now = new Date().getTime() / 1000;
