@@ -25,7 +25,7 @@ var contract;
 
 const minerAddress = '0xA4BE7B9F36495d07a1B1753C38CabC286af53757'; //testnet contract
 const tokenAddress = '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7'; //testnet BUSD
-//const minerAddress = ''; //mainnet contract   
+//const minerAddress = '0x8a5e5a6E794139385D55E5072C0a9561596d6349'; //mainnet contract   
 //const tokenAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'; //mainnet BUSD
 
 var tokenContract;
