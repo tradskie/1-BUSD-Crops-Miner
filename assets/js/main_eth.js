@@ -188,7 +188,7 @@ function refreshData() {
 	contract.methods.COMPOUND_FOR_NO_TAX_WITHDRAWAL().call().then(r => {
         compoundCount = r;
         var maxCompoundForNoTax = compoundCount;
-        $("#no-tax-compound-count").html(`${maxCompoundForNoTax}`)
+        $("#no-tax-compound-count").html(`${maxCompoundForNoTax - 1}`)
     }).catch((err) => {
         console.log('COMPOUND_FOR_NO_TAX_WITHDRAWAL', err);
     });
@@ -386,7 +386,7 @@ function refreshData() {
             });
         }
 
-        if (dailyCompoundBonus <= compoundCount) {
+        if (dailyCompoundBonus < compoundCount - 1) {
             contract.methods.WITHDRAWAL_TAX().call().then(tax => {
                 $("#withdraw-tax").html(`(-${tax/10}% tax)`)
             }).catch((err) => {
