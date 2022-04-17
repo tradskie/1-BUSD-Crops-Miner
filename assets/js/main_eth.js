@@ -325,7 +325,7 @@ function refreshData() {
             extraPercent += dailyCompoundBonus * compoundPercent;
             $("#compound-bonus").html(`+${extraPercent}% bonus`);
         } else {
-            $("#reinvest").text("Hire more Farmers");
+            $("#reinvest").text("Hire More Farmers");
         }
 
         var cutOffDiff = (+lastHatch + +cutoffStep) - now;
