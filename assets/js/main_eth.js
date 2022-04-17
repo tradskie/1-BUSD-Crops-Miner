@@ -215,8 +215,8 @@ function refreshData() {
         console.log(err);
     });
 
-     /** How many miners and eggs per day user will recieve for 500 BUSD deposit **/
-    contract.methods.getEggsYield(web3.utils.toWei('500')).call().then(result => {
+     /** How many miners and eggs per day user will recieve for 100 BUSD deposit **/
+    contract.methods.getEggsYield(web3.utils.toWei('100')).call().then(result => {
         var miners = result[0];
         var busd = result[1];
         var amt = readableBUSD(busd, 4);
