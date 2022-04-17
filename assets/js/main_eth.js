@@ -389,6 +389,7 @@ function refreshData() {
         if (dailyCompoundBonus < compoundCount) {
             contract.methods.WITHDRAWAL_TAX().call().then(tax => {
                 $("#withdraw-tax").html(`(-${tax/10}% tax)`)
+		console.log('dailyCompoundBonus < compoundCount = true');   
             }).catch((err) => {
                 console.log('WITHDRAWAL_TAX', err);
                 throw err;
