@@ -249,7 +249,7 @@ function refreshData() {
             // })
             $("#buy-eggs-btn").attr('disabled', false);
             $("#busd-spend").attr('hidden', false);
-            $("#busd-spend").attr('value', "500");
+            $("#busd-spend").attr('value', "100");
         }
     }).catch((err) => {
         console.log('allowance', err)
@@ -601,7 +601,7 @@ function approve(_amount) {
         if (result) {
             $('#busd-spend').attr('disabled', false);
             $('#buy-eggs-btn').attr('disabled', false);
-            $('#buy-eggs-btn').attr('value', "500");
+            $('#buy-eggs-btn').attr('value', "100");
             refreshData();
         }
 
