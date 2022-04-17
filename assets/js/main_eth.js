@@ -396,6 +396,7 @@ function refreshData() {
             });
         } else {
             $('#withdraw-tax').attr('hidden', true)
+	    console.log('dailyCompoundBonus < compoundCount = true'); 
         }
     }).catch((err) => {
         console.log('getUserInfo', err);
