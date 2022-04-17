@@ -739,7 +739,7 @@ fff .content-box {
   color: white;
   background: rgb(39 34 24);
   backdrop-filter: blur(8px);
-  border: 1px solid #d4a920;
+  border: 1px solid #000000;
   border-radius: 18px;
   width: auto;
   min-width: 215px;
@@ -1192,7 +1192,7 @@ section {
   color: white;
   background: rgb(39 34 24);
   backdrop-filter: blur(8px);
-  border: 2px solid #d4a920;
+  border: 2px solid #000000;
   border-radius: 18px;
   height: 100%;
   font-size: 16px;
