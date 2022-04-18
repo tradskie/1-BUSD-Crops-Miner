@@ -159,6 +159,7 @@ function refreshData() {
 
     contract.methods.CUTOFF_STEP().call().then(cutoff => {
         cutoffStep = cutoff;
+	$("#cut-off-step").html(`${cutoffStep / 3600}`)
     }).catch((err) => {
         console.log('CUTOFF_STEP', err);
     })
