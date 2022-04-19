@@ -219,10 +219,10 @@ h6 {
   --------------------------------------------------------------*/
 .connect-btn {
   color: #fff;
-  border-radius: 6px;
+  border-radius: 5px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 12px;
   border: 2px solid var(--token);
 }
 .connect-btn:hover {
