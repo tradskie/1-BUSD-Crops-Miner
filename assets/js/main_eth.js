@@ -25,9 +25,9 @@ var contract;
 
 
 //const minerAddress = '0xA4BE7B9F36495d07a1B1753C38CabC286af53757'; //testnet contract
-//const tokenAddress = '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7'; //testnet USDC.e
+//const tokenAddress = '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7'; //testnet BUSD
 const minerAddress = '0x8be8881C641Dc5A40845253Ee3eD04955eDFe96D'; //mainnet contract   
-const tokenAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'; //mainnet USDC.e
+const tokenAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'; //mainnet BUSD
 
 var tokenContract;
 var started = true;
@@ -217,7 +217,7 @@ function refreshData() {
         console.log(err);
     });
 
-     /** How many miners and eggs per day user will recieve for 100 USDC.e deposit **/
+     /** How many miners and eggs per day user will recieve for 100 BUSD deposit **/
     contract.methods.getEggsYield(web3.utils.toWei('100')).call().then(result => {
         var miners = result[0];
         var busd = result[1];
@@ -625,23 +625,23 @@ function buyEggs(){
 	
     var amt = web3.utils.toWei(busd);
 	if(+amt < +minDeposit) {
-		alert(`you cannot deposit less than ${readableBUSD(minDeposit, 2)} USDC.e`);
+		alert(`you cannot deposit less than ${readableBUSD(minDeposit, 2)} BUSD`);
         return
     }
 	
 	var amt = web3.utils.toWei(busd);
 	if(+amt + +totalDeposits > +maxDeposit) {
-		alert(`you cannot deposit more than ${readableBUSD(maxDeposit, 2)} USDC.e`);
+		alert(`you cannot deposit more than ${readableBUSD(maxDeposit, 2)} BUSD`);
         return
     }
 	
     if(+amt > usrBal) {
-		alert("you do not have " + busd + " USDC.e in your wallet");
+		alert("you do not have " + busd + " BUSD in your wallet");
         return
     }
     if (+spend < +busd) {
         var amtToSpend = busd - spend;
-        alert("you first need to approve " + amtToSpend + " USDC.e before depositing");
+        alert("you first need to approve " + amtToSpend + " BUSD before depositing");
         return
     }
 
