@@ -1803,3 +1803,8 @@ section {
     background-position: 0 0;
   }
 }
+.HeaderImage {
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+}
